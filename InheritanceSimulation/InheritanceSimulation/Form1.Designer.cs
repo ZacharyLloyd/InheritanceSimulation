@@ -67,6 +67,7 @@
             this.SubmitName.TabIndex = 2;
             this.SubmitName.Text = "Submit Name";
             this.SubmitName.UseVisualStyleBackColor = true;
+            this.SubmitName.Click += new System.EventHandler(this.SubmitName_Click);
             // 
             // SubmitAge
             // 
@@ -76,6 +77,7 @@
             this.SubmitAge.TabIndex = 3;
             this.SubmitAge.Text = "Submit Age";
             this.SubmitAge.UseVisualStyleBackColor = true;
+            this.SubmitAge.Click += new System.EventHandler(this.SubmitAge_Click);
             // 
             // NameBox
             // 
@@ -123,6 +125,7 @@
             this.CharacterOptions.Name = "CharacterOptions";
             this.CharacterOptions.Size = new System.Drawing.Size(121, 24);
             this.CharacterOptions.TabIndex = 8;
+            this.CharacterOptions.SelectedIndexChanged += new System.EventHandler(this.CharacterOptions_SelectedIndexChanged);
             // 
             // CharacterLabel
             // 
